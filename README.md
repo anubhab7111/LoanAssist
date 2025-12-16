@@ -28,7 +28,11 @@ LoanAssist is an **AI-driven, end-to-end digital lending assistant** that automa
 🧠 Architecture Overview
 ------------------------
 
-**Frontend:** Streamlit**Backend:** FastAPI (REST, stateless)**Logic:** Agent-based orchestration**Storage (Demo):** CSV files (CRM, audit logs, metrics)**Documents:** PDF generation using ReportLab
+**Frontend:** Streamlit
+**Backend:** FastAPI (REST, stateless)
+**Logic:** Agent-based orchestration
+**Storage (Demo):** CSV files (CRM, audit logs, metrics)
+**Documents:** PDF generation using ReportLab
 
 The architecture follows a **decoupled, API-first design**, allowing independent scaling and easy replacement of demo storage with production databases.
 
