@@ -32,7 +32,7 @@ LoanAssist is an **AI-driven, end-to-end digital lending assistant** that automa
 
 The architecture follows a **decoupled, API-first design**, allowing independent scaling and easy replacement of demo storage with production databases.
 
-![image](./flow_chart.png)
+![image](flow_chart.png)
 
 🔄 End-to-End Flow
 ------------------
