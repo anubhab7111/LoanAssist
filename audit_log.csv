@@ -1,0 +1,73 @@
+ts,customer_id,action,data
+2025-09-30T18:00:00.310838,CUST_001,apply_called,credit:720
+2025-10-01T16:42:38.566181,app_001,apply_customer_not_found,
+2025-10-01T17:13:26.430118,CUST_001,apply_approve,credit:720;emi:4448.89;dti:0.074
+2025-10-01T18:54:58.135095,CUST_001,apply_approve,credit:720;emi:4448.89;dti:0.074
+2025-10-01T18:56:42.457905,CUST_002,apply_refer,credit:680;emi:6642.86;dti:0.259
+2025-10-04T19:19:03.515823,CUST_001,apply_approve,credit:720;emi:6642.86;dti:0.111
+2025-10-04T19:41:50.533675,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:45:06.727463,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:46:22.205866,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:46:36.794169,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:50:47.361438,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:50:52.625629,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T19:53:05.120732,CUST_001,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-04T20:00:57.465693,CUST_001,apply_approve,credit:720;emi:6642.86;dti:0.144
+2025-10-04T20:00:57.487577,CUST_001,sanction_pdf_generated,sanction_CUST_001_20251004T200057Z.pdf
+2025-10-05T08:51:11.716512,CUST_001,apply_approve,credit:720;emi:6642.86;dti:0.144
+2025-10-05T08:51:11.748650,CUST_001,sanction_pdf_generated,sanction_CUST_001_20251005T085111Z.pdf
+2025-10-05T08:52:33.387609,CUST_002,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-05T08:53:37.688840,CUST_002,apply_refer,credit:680;emi:6642.86;dti:0.192
+2025-10-05T08:55:20.126278,CUST_003,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-05T08:56:39.649032,CUST_003,orchestrate_kyc_fail,"{""status"": ""FAIL"", ""missing"": [], ""issues"": [""phone format invalid""]}"
+2025-10-05T09:10:39.701728,CUST_003,apply_approve,credit:760;emi:6642.86;dti:0.108
+2025-10-05T09:10:39.729231,CUST_003,sanction_pdf_generated,sanction_CUST_003_20251005T091039Z.pdf
+2025-10-05T09:20:40.228085,CUST_001,apply_approve,credit:720;emi:7061.09;dti:0.118
+2025-10-05T09:21:27.777411,CUST_001,apply_reject,credit:720;emi:7061.09;dti:1.118
+2025-10-05T09:21:38.346106,CUST_001,apply_approve,credit:720;emi:7061.09;dti:0.218
+2025-10-05T09:21:38.364553,CUST_001,sanction_pdf_generated,sanction_CUST_001_20251005T092138Z.pdf
+2025-10-05T15:16:39.834648,CUST_012,apply_refer,credit:764;emi:28244.08;dti:0.561
+2025-10-05T15:17:45.403927,CUST_012,apply_reject,credit:764;emi:28244.08;dti:0.661
+2025-10-05T17:09:00.823877,CUST_006,apply_approve,credit:756;emi:16607.15;dti:0.247
+2025-10-05T17:09:39.105254,CUST_006,apply_approve,credit:756;emi:16607.15;dti:0.247
+2025-10-05T17:09:39.141064,CUST_006,sanction_pdf_generated,sanction_CUST_006_20251005T170939Z.pdf
+2025-10-05T17:14:34.262526,CUST_008,apply_approve,credit:718;emi:26333.84;dti:0.428
+2025-10-05T17:14:55.626097,CUST_008,apply_approve,credit:718;emi:26333.84;dti:0.428
+2025-10-05T17:14:55.660257,CUST_008,sanction_pdf_generated,sanction_CUST_008_20251005T171455Z.pdf
+2025-10-07T07:59:00.347574,CUST_039,apply_approve,credit:745;emi:18829.39;dti:0.15
+2025-10-07T07:59:24.278732,CUST_039,apply_approve,credit:745;emi:18829.39;dti:0.15
+2025-10-07T07:59:24.306847,CUST_039,sanction_pdf_generated,sanction_CUST_039_20251007T075924Z.pdf
+2025-10-07T08:31:37.823155,CUST_018,apply_approve,credit:768;emi:17795.56;dti:0.213
+2025-10-07T08:31:52.317447,CUST_018,apply_approve,credit:768;emi:17795.56;dti:0.213
+2025-10-07T08:31:52.340348,CUST_018,sanction_pdf_generated,sanction_CUST_018_20251007T083152Z.pdf
+2025-10-08T16:33:35.042270,CUST_019,nlp_apply,"{""msg"": ""I need 50000 for my wedding"", ""decision"": {""loan_request"": {""loan_amount"": 50000, ""tenure_months"": 36, ""rate"": 12.0, ""est_emi"": 1661}, ""intent"": ""loan_interest"", ""purpose"": ""wedding""}}"
+2025-10-08T16:34:33.504824,CUST_019,nlp_apply,"{""msg"": ""I need 50000 for my wedding"", ""decision"": {""loan_request"": {""loan_amount"": 50000, ""tenure_months"": 36, ""rate"": 12.0, ""est_emi"": 1661}, ""intent"": ""loan_interest"", ""purpose"": ""wedding""}}"
+2025-10-08T16:35:53.395230,CUST_019,apply_approve,credit:784;emi:1660.72;dti:0.037
+2025-10-08T16:35:53.431665,CUST_019,sanction_pdf_generated,sanction_CUST_019_20251008T163553Z.pdf
+2025-10-08T16:39:50.614218,CUST_002,nlp_apply,"{""msg"": ""i need 6lakhs for my tution fees"", ""decision"": {""intent"": ""unknown"", ""purpose"": ""education""}}"
+2025-10-08T16:56:47.243049,CUST_008,nlp_apply,"{""msg"": ""i need 6lakhs for my tution fees"", ""parsed_amount"": 600000, ""purpose"": ""education""}"
+2025-10-08T16:59:44.317060,CUST_025,nlp_apply,"{""msg"": ""i need 6lakhs for my tution fees"", ""parsed_amount"": 600000, ""purpose"": ""education""}"
+2025-10-09T17:04:59.962087,CUST_039,nlp_apply,"{""msg"": ""I need 5 lakh for wedding"", ""parsed_amount"": 500000, ""purpose"": ""wedding""}"
+2025-10-09T17:05:17.129234,CUST_039,apply_approve,credit:745;emi:16607.15;dti:0.132
+2025-10-09T17:05:17.150041,CUST_039,sanction_pdf_generated,sanction_CUST_039_20251009T170517Z.pdf
+2025-10-11T20:30:02.878614,CUST_034,apply_refer,credit:670;emi:33214.31;dti:0.35
+2025-10-11T21:05:33.749313,CUST_006,apply_approve,credit:756;emi:16607.15;dti:0.247
+2025-10-11T21:05:33.774042,CUST_006,sanction_pdf_generated,sanction_CUST_006_20251011T210533Z.pdf
+2025-10-11T21:10:18.652955,CUST_007,apply_refer,credit:679;emi:26571.45;dti:0.337
+2025-10-11T21:13:45.754894,CUST_017,apply_approve,credit:750;emi:23250.02;dti:0.304
+2025-10-11T21:13:45.806826,CUST_017,sanction_pdf_generated,sanction_CUST_017_20251011T211345Z.pdf
+2025-10-11T21:19:09.164911,CUST_009,apply_refer,credit:600;emi:26571.45;dti:0.536
+2025-10-11T21:28:24.332684,CUST_007,apply_refer,credit:679;emi:16607.15;dti:0.211
+2025-10-11T21:32:23.165701,CUST_008,apply_approve,credit:718;emi:19928.59;dti:0.324
+2025-10-11T21:32:23.186546,CUST_008,sanction_pdf_generated,sanction_CUST_008_20251011T213223Z.pdf
+2025-10-11T21:38:43.891277,CUST_040,apply_approve,credit:721;emi:26571.45;dti:0.269
+2025-10-11T21:38:43.912401,CUST_040,sanction_pdf_generated,sanction_CUST_040_20251011T213843Z.pdf
+2025-10-12T10:11:13.582070,CUST_006,apply_approve,"credit:756;emi:16607.15;dti:0.247"
+2025-10-12T10:11:13.670570,CUST_006,sanction_pdf_generated,"sanction_CUST_006_20251012T101113Z.pdf"
+2025-10-12T17:41:45.430290,CUST_008,apply_approve,"credit:718;emi:26571.45;dti:0.432"
+2025-10-12T17:41:45.448056,CUST_008,sanction_pdf_generated,"sanction_CUST_008_20251012T174145Z.pdf"
+2025-10-13T04:55:25.815595,CUST_009,apply_refer,"credit:600;emi:26571.45;dti:0.536"
+2025-10-13T11:40:44.287153,CUST_009,apply_refer,"credit:600;emi:26571.45;dti:0.536"
+2025-10-15T09:37:50.386748,CUST_007,apply_refer,"credit:679;emi:23250.02;dti:0.295"
+2025-10-15T09:38:31.705199,CUST_040,apply_approve,"credit:721;emi:6642.86;dti:0.067"
+2025-10-15T09:38:31.730628,CUST_040,sanction_pdf_generated,"sanction_CUST_040_20251015T093831Z.pdf"
