@@ -103,8 +103,7 @@ Rule-based logic is intentionally used to ensure **transparency and regulatory c
 
 🔄 End-to-End Flow
 ------------------
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   User Chat   → NLP Parsing   → CRM Fetch / Update   → EMI Estimation   → KYC Consent & Validation   → Underwriting Decision   → Sanction Letter Generation   → Audit & Metrics Logging   `
+`   User Chat   → NLP Parsing   → CRM Fetch / Update   → EMI Estimation   → KYC Consent & Validation   → Underwriting Decision   → Sanction Letter Generation   → Audit & Metrics Logging   `
 
 📊 Audit & Compliance
 ---------------------
